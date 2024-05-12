@@ -71,14 +71,18 @@
 					<h3 class="text-8xl text-center m-3 font-monofett">Load Website?</h3>
 
 					<div class="flex w-full justify-around mb-3">
-						<button
-							id="hoverOption1"
-							on:click={() => {
+						<div class="w-full h-full flex justify-center">
+							<button
+								id="hoverOption1"
+								on:click={() => {
 								pageLoaded = true;
 							}}
-							class="font-vt323 text-5xl">Sure</button
-						>
-						<button id="hoverOption2" class="font-vt323 text-5xl">Nope</button>
+								class="font-vt323 text-5xl">Sure</button
+							>
+						</div>
+						<div class="w-full h-full flex justify-center">
+							<button id="hoverOption2" class="font-vt323 text-5xl">Nope</button>
+						</div>
 					</div>
 				</div>
 			</div>
