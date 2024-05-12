@@ -11,7 +11,7 @@
 				addDots(element);
 			});
 			element.addEventListener('mouseout', () => {
-				removeDots();
+				removeDots(element);
 			});
 		}
 
@@ -21,7 +21,7 @@
 				addDots(element2);
 			});
 			element2.addEventListener('mouseout', () => {
-				removeDots();
+				removeDots(element2);
 			});
 		}
 	});
@@ -48,10 +48,12 @@
 		}
 	}
 
-	function removeDots() {
+	function removeDots(element: HTMLElement) {
+		element.innerText = element.innerText.replace('.', '');
+		element.innerText = element.innerText.replace('.', '');
+		element.innerText = element.innerText.replace('.', '');
 		clearInterval(timerId);
 	}
-	//displayWord();
 </script>
 
 <div>
