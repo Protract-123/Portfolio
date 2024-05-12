@@ -11,7 +11,9 @@
 				addDots(element);
 			});
 			element.addEventListener('mouseout', () => {
-				removeDots(element);
+				if(element) {
+					removeDots(element);
+				}
 			});
 		}
 
@@ -21,7 +23,9 @@
 				addDots(element2);
 			});
 			element2.addEventListener('mouseout', () => {
-				removeDots(element2);
+				if (element2) {
+					removeDots(element2);
+				}
 			});
 		}
 	});
