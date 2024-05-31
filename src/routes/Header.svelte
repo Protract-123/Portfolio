@@ -4,7 +4,7 @@
 	import youtube from '$lib/images/youtube_social_circle_dark.png';
 </script>
 
-<header class="bg-denim text-white pr-5 pl-5 pt-2 pb-2">
+<header class="bg-denim text-white pr-5 pl-5 pt-2 pb-2 w-5/6 m-auto mb-3 rounded">
 	<nav class="flex justify-center">
 		<ul class="flex justify-center mr-auto">
 			<li class="flex justify-center content-center">

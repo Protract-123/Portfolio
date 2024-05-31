@@ -66,7 +66,7 @@
 			<div class="w-full stripe-pattern">
 				<!-- Load Website -->
 				<div
-					class="bg-miami-pink rounded-2xl blog-shadow w-fit h-fit absolute left-0 right-0 top-0 bottom-0 m-auto hover:scale-105 transition-all"
+					class="bg-eggshell rounded-2xl blog-shadow w-fit h-fit absolute left-0 right-0 top-0 bottom-0 m-auto hover:scale-105 transition-all"
 				>
 					<h3 class="text-8xl text-center m-3 font-monofett">Load Website?</h3>
 
@@ -88,8 +88,10 @@
 			</div>
 		</section>
 	{:else}
-		<Header></Header>
-		<slot />
+		<div class="stripe-pattern w-full pt-4">
+			<Header></Header>
+			<slot />
+		</div>
 	{/if}
 </div>
 
